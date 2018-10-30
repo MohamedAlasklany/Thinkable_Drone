@@ -6,7 +6,15 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "gcc -o MAIN Main.c"
+            "command": "gcc",
+            "problemMatcher":"$gcc",
+            "args": [
+                "-o","MAIN" ,"src//Main.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
