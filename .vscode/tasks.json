@@ -6,7 +6,10 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "gcc -o MAIN Main.c"
+            "command": "gcc -o MAIN Main.c",
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
