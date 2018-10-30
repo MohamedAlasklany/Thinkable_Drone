@@ -6,6 +6,12 @@
         {
             "label": "build",
             "type": "shell",
+<<<<<<< HEAD
+            "command": "gcc -o MAIN Main.c",
+            "problemMatcher": [
+                "$gcc"
+            ]
+=======
             "command": "gcc",
             "problemMatcher":"$gcc",
             "args": [
@@ -15,6 +21,7 @@
                 "kind": "build",
                 "isDefault": true
             }
+>>>>>>> 4716a29fcc7176323df4e671e71a417259550257
         }
     ]
 }
